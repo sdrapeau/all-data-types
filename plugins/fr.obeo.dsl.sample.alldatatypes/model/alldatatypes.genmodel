@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" copyrightText="Copyright  2019 Obeo. All Rights Reserved.&#xA;&#xA;This file is part of Obeo Designer.&#xA;&#xA;This software and the attached documentation are the exclusive ownership of its authors and was conceded to the profit of Obeo SARL.&#xA;This software and the attached documentation are protected under the rights of intellectual ownership, including the section &quot;Titre II  Droits des auteurs (Articles L121-1, L123-12)&quot;&#xA;By installing this software, you acknowledge being aware of this rights and accept them, and as a consequence you must:&#xA; - be in possession of a valid license of use conceded by Obeo only.&#xA; - agree that you have read, understood, and will comply with the license terms and conditions.&#xA;- agree not to do anything that could conflict with intellectual ownership owned by Obeo or its beneficiaries or the authors of this software&#xA;&#xA;Should you not agree with these terms, you must stop to use this software and give it back to its legitimate owner.&#xA;&#xA;Acceleo and Obeo are trademarks owned by Obeo.&#xA; "
+    modelDirectory="/fr.obeo.dsl.sample.alldatatypes/src-gen" editDirectory="/fr.obeo.dsl.sample.alldatatypes.edit/src-gen"
+    editorDirectory="" modelPluginID="fr.obeo.dsl.sample.alldatatypes" modelName="Alldatatypes"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" testsDirectory=""
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0" copyrightFields="false"
+    usedGenPackages="../../org.eclipse.emf.ecore/model/Ecore.genmodel#//ecore" operationReflection="true"
+    importOrganizing="true">
+  <foreignModel>alldatatypes.ecore</foreignModel>
+  <genPackages prefix="Alldatatypes" disposableProviderFactory="true" ecorePackage="alldatatypes.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="alldatatypes.ecore#//AEnum">
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//AEnum/ENUM0"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//AEnum/ENUM1"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="alldatatypes.ecore#//StateWithoutDefault">
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//StateWithoutDefault/OPEN"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//StateWithoutDefault/MOVE"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//StateWithoutDefault/CLOSE"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//StateWithoutDefault/MOVING"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//StateWithoutDefault/DELETE"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="alldatatypes.ecore#//Heavy">
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//Heavy/OPEN"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//Heavy/MOVE"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//Heavy/CLOSE"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//Heavy/MOVING"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//Heavy/DELETE"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//Heavy/OPEN1"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//Heavy/MOVE1"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//Heavy/CLOS1E"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//Heavy/MOVING1"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//Heavy/DELETE1"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//Heavy/OPEN2"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//Heavy/MOVE2"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//Heavy/CLOSE2"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//Heavy/MOVING2"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//Heavy/DELETE2"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//Heavy/OPEN3"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//Heavy/MOVE3"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//Heavy/CLOSE3"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//Heavy/MOVING3"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//Heavy/DELETE3"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//Heavy/OPEN4"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//Heavy/MOVE4"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//Heavy/CLOSE4"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//Heavy/MOVING4"/>
+      <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//Heavy/DELETE4"/>
+    </genEnums>
+    <genClasses image="false" ecoreClass="alldatatypes.ecore#//Element">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Element/id"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Element/name"/>
+    </genClasses>
+    <genClasses ecoreClass="alldatatypes.ecore#//Root">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference alldatatypes.ecore#//Root/types"/>
+      <genOperations ecoreOperation="alldatatypes.ecore#//Root/getAllTypes"/>
+    </genClasses>
+    <genClasses image="false" ecoreClass="alldatatypes.ecore#//Type"/>
+    <genClasses ecoreClass="alldatatypes.ecore#//Strings">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Strings/text_01_EmptyDefault"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Strings/text_01"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Strings/text_1"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Strings/textarea"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Strings/link_01"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Strings/html_01"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Strings/notEditableText_01"/>
+    </genClasses>
+    <genClasses ecoreClass="alldatatypes.ecore#//Dates">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Dates/dateEmptyDefault_01"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Dates/date_01"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Dates/date_1"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Dates/date_01_HM"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Dates/date_01_HMS"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Dates/date_01_HMSms"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Dates/notEditableDate_01"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Dates/dates"/>
+    </genClasses>
+    <genClasses ecoreClass="alldatatypes.ecore#//Enums">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Enums/enum_01"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Enums/enum_01_EmptyDefault"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Enums/enum_1"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Enums/enums"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Enums/notEditableEnum_01"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Enums/states"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Enums/statesMax2"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Enums/statesMin1Max2"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Enums/heavy"/>
+    </genClasses>
+    <genClasses ecoreClass="alldatatypes.ecore#//Booleans">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Booleans/boolean_01"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Booleans/boolean_01_EmptyDefault"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Booleans/boolean_1"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Booleans/notEditableBoolean_01"/>
+    </genClasses>
+    <genClasses ecoreClass="alldatatypes.ecore#//Integers">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Integers/int_01"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Integers/int_1"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Integers/int_01_EmptyDefault"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Integers/notEditableInt_01"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Integers/ints"/>
+      <genFeatures property="None" createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Integers/hiddenInt_01"/>
+    </genClasses>
+    <genClasses ecoreClass="alldatatypes.ecore#//Longs">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Longs/long_01"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Longs/long_1"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Longs/long_01_EmptyDefault"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Longs/notEditableLong_01"/>
+    </genClasses>
+    <genClasses ecoreClass="alldatatypes.ecore#//Shorts">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Shorts/short_01"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Shorts/short_1"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Shorts/short_01_EmptyDefault"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Shorts/notEditableShort_01"/>
+    </genClasses>
+    <genClasses ecoreClass="alldatatypes.ecore#//Doubles">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Doubles/double_01"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Doubles/double_1"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Doubles/double_01_EmptyDefault"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Doubles/notEditableDouble_01"/>
+    </genClasses>
+    <genClasses ecoreClass="alldatatypes.ecore#//Floats">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Floats/float_01"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Floats/float_1"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Floats/float_01_EmptyDefault"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//Floats/notEditableFloat_01"/>
+    </genClasses>
+    <genClasses ecoreClass="alldatatypes.ecore#//BigIntegers">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//BigIntegers/bigInt_01"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//BigIntegers/bigInt_1"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//BigIntegers/bigInt_01_EmptyDefault"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//BigIntegers/notEditableBigInt_01"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//BigIntegers/bigInts"/>
+    </genClasses>
+    <genClasses ecoreClass="alldatatypes.ecore#//BigDecimals">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//BigDecimals/bigDecimal_01"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//BigDecimals/bigDecimal_1"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//BigDecimals/bigDecimal_01_EmptyDefault"/>
+      <genFeatures property="Readonly" createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//BigDecimals/notEditableBigDecimal_01"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute alldatatypes.ecore#//BigDecimals/bigDecimals"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

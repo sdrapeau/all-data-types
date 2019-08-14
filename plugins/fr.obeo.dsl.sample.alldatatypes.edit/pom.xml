@@ -1,0 +1,14 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>fr.obeo.dsl.sample.alldatatypes</groupId>
+    <artifactId>fr.obeo.dsl.sample.alldatatypes.edit</artifactId>
+  <packaging>eclipse-plugin</packaging>
+  <version>0.7.0-SNAPSHOT</version>
+
+    <parent>
+        <groupId>fr.obeo.dsl.sample.alldatatypes</groupId>
+        <artifactId>fr.obeo.dsl.sample.alldatatypes.parent</artifactId>
+        <version>0.7.0-SNAPSHOT</version>
+  <relativePath>../../releng/fr.obeo.dsl.sample.alldatatypes.parent</relativePath>
+    </parent>
+</project>
