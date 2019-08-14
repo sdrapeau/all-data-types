@@ -5,8 +5,7 @@
     editorDirectory="" modelPluginID="fr.obeo.dsl.sample.alldatatypes" modelName="Alldatatypes"
     rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" testsDirectory=""
     importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0" copyrightFields="false"
-    usedGenPackages="../../org.eclipse.emf.ecore/model/Ecore.genmodel#//ecore" operationReflection="true"
-    importOrganizing="true">
+    operationReflection="true" importOrganizing="true">
   <foreignModel>alldatatypes.ecore</foreignModel>
   <genPackages prefix="Alldatatypes" basePackage="fr.obeo.dsl.sample" disposableProviderFactory="true"
       ecorePackage="alldatatypes.ecore#/">

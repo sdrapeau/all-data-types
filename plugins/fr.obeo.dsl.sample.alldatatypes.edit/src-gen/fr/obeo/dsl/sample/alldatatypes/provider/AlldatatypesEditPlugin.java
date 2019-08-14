@@ -18,10 +18,7 @@
 package fr.obeo.dsl.sample.alldatatypes.provider;
 
 import org.eclipse.emf.common.EMFPlugin;
-
 import org.eclipse.emf.common.util.ResourceLocator;
-
-import org.eclipse.emf.ecore.provider.EcoreEditPlugin;
 
 /**
  * This is the central singleton for the Alldatatypes edit plugin.
@@ -55,7 +52,6 @@ public final class AlldatatypesEditPlugin extends EMFPlugin {
 	public AlldatatypesEditPlugin() {
 		super
 		  (new ResourceLocator [] {
-		     EcoreEditPlugin.INSTANCE,
 		   });
 	}
 
