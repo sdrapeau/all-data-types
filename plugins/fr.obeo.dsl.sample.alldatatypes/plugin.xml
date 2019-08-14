@@ -25,7 +25,7 @@
       <!-- @generated alldatatypes -->
       <package
             uri="http://obeo.fr/alldatatypes/1.0.0"
-            class="alldatatypes.AlldatatypesPackage"
+            class="fr.obeo.dsl.sample.alldatatypes.AlldatatypesPackage"
             genModel="model/alldatatypes.genmodel"/>
    </extension>
 

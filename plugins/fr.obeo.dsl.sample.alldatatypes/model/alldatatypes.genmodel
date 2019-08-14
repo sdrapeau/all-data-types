@@ -8,7 +8,8 @@
     usedGenPackages="../../org.eclipse.emf.ecore/model/Ecore.genmodel#//ecore" operationReflection="true"
     importOrganizing="true">
   <foreignModel>alldatatypes.ecore</foreignModel>
-  <genPackages prefix="Alldatatypes" disposableProviderFactory="true" ecorePackage="alldatatypes.ecore#/">
+  <genPackages prefix="Alldatatypes" basePackage="fr.obeo.dsl.sample" disposableProviderFactory="true"
+      ecorePackage="alldatatypes.ecore#/">
     <genEnums typeSafeEnumCompatible="false" ecoreEnum="alldatatypes.ecore#//AEnum">
       <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//AEnum/ENUM0"/>
       <genEnumLiterals ecoreEnumLiteral="alldatatypes.ecore#//AEnum/ENUM1"/>

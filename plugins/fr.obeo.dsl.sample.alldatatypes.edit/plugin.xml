@@ -25,7 +25,7 @@
       <!-- @generated alldatatypes -->
       <factory
             uri="http://obeo.fr/alldatatypes/1.0.0"
-            class="alldatatypes.provider.AlldatatypesItemProviderAdapterFactory"
+            class="fr.obeo.dsl.sample.alldatatypes.provider.AlldatatypesItemProviderAdapterFactory"
             supportedTypes=
               "org.eclipse.emf.edit.provider.IEditingDomainItemProvider
                org.eclipse.emf.edit.provider.IStructuredItemContentProvider
